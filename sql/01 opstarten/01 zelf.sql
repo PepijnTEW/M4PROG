@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: mariadb
--- Generation Time: May 14, 2024 at 10:58 AM
+-- Generation Time: May 16, 2024 at 10:58 AM
 -- Server version: 11.3.2-MariaDB-1:11.3.2+maria~ubu2204
 -- PHP Version: 8.2.8
 
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `kaartspel`
+-- Table structure for table `01 zelf`
 --
 
 CREATE TABLE `discord` (
@@ -32,7 +32,7 @@ CREATE TABLE `discord` (
   `servers` int(11),
   `chats` int(80),
   `friends` int(80),
-  `description` varchar(150) NOT NULL,
+  `description` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 COMMIT;
 
